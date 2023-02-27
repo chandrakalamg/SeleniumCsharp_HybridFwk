@@ -36,38 +36,6 @@ namespace HybridFwk_POM_SeleniumProject.BasePage
             return linktext;
         }
 
-        //public int GetSearchResultCount()
-        //{
-        //    IWebElement searchCountElement = driver.FindElement(By.Id("search-count"));
-        //    string searchCountText = searchCountElement.Text.Replace(",", "");
-        //    int searchCount = int.Parse(searchCountText);
-        //    return searchCount;
-        //}
-
-        //public string GetFirstSearchResultLinkText()
-        //{
-        //    IWebElement firstResultLink = driver.FindElement(By.CssSelector(".search-results .result-item a"));
-        //    return firstResultLink.Text;
-        //}
-
-        //public SearchPage ValidateSearchResults()
-        //{
-        //    IWebElement searchResults = driver.FindElement(By.CssSelector(".search-results"));
-        //    Assert.That(searchResults.Displayed, "Search results are not displayed");
-        //    return this;
-        //}
-
-        //public SearchPage ValidateSearchCount(int expectedCount = 0)
-        //{
-        //    if (expectedCount == 0)
-        //    {
-        //        expectedCount = GetSearchResultCount();
-        //    }
-        //    Assert.That(GetSearchResultCount() >= expectedCount, $"Actual search count: {GetSearchResultCount()} is less than expected search count: {expectedCount}");
-        //    return this;
-        //}
-
-
     }
     }
 
