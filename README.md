@@ -21,7 +21,7 @@ All links and buttons on the page should work correctly, taking the user to the 
     I want to be able to search for information
     So that I can find what I'm looking for quickly and easily
 
-Scenario: Search for a specific term
+    Scenario: Search for a specific term
     Given I am on the RSMUK homepage
     When I enter "tax planning" into the search bar
     And I click the search button
